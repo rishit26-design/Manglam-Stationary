@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manglam Stationery - Vidisha</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #faf7f2;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    padding: 20px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: #8b5e3c;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1519681393784-d120267933ba') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p { margin: 20px 0; font-size: 1.2rem; }
+
+.hero a {
+    padding: 12px 30px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+section { padding: 80px 10%; }
+
+.about { text-align: center; }
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.contact { background-color: #fff; text-align: center; }
+
+.address-box { margin: 15px 0; font-weight: 500; }
+
+.contact-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #8b5e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-order {
+    background-color: #eafaf1;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.whatsapp-order a {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #8b5e3c;
+    color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Manglam Stationery</h1>
+    <div class="tagline">Your Trusted Partner for School & Office Supplies</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div>
+        <h2>Quality Stationery at Affordable Prices</h2>
+        <p>Order Easily Through WhatsApp & Get Quick Response</p>
+        <a href="https://wa.me/919770267848?text=Hello%20Manglam%20Stationery,%20I%20want%20to%20place%20an%20order." target="_blank">
+            Order on WhatsApp
+        </a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        Located at Arihant Vihar Gate, Vidisha (M.P.), Manglam Stationery provides 
+        high-quality school, office, and personal stationery products at affordable prices.
+    </p>
+</section>
+
+<section id="products">
+    <h2 style="text-align:center; margin-bottom:40px;">Our Products</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f">
+            <h3>Notebooks</h3>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1583484963886-cfe2bff2945f">
+            <h3>Pens & Writing Tools</h3>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+            <h3>School Supplies</h3>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact & Orders</h2>
+
+    <div class="address-box">
+        📍 Arihant Vihar Gate, Vidisha, Madhya Pradesh
+    </div>
+
+    <div class="address-box">
+        📞 Mobile: 9770267848
+    </div>
+
+    <div class="whatsapp-order">
+        <h3>Place Your Order on WhatsApp</h3>
+        <p>Send us your product list on WhatsApp and we will respond quickly.</p>
+        <a href="https://wa.me/919770267848?text=Hello%20Manglam%20Stationery,%20I%20want%20to%20place%20an%20order." target="_blank">
+            Chat on WhatsApp
+        </a>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Manglam Stationery | Arihant Vihar Gate, Vidisha (M.P.) | 📞 9770267848
+</footer>
+
+</body>
+</html>
